@@ -131,9 +131,11 @@ public class UI {
 		System.out.println("  +----------------+");
 	}
 
+	
 	public static void printHeader() {
-		System.out.println(ANSI_CYAN + "============================");
-		System.out.println("       CHESS GAME         ");
-		System.out.println("============================" + ANSI_RESET);
+		System.out.println(ANSI_CYAN + "============================         R -> Torre "
+				+ "|| N -> Cavalo");
+		System.out.println("|       CHESS GAME         |         B -> Bispo || Q -> Rainha");
+		System.out.println("============================         K -> Rei   || P -> Peao" + ANSI_RESET);
 	}
 }
